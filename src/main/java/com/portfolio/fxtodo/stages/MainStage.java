@@ -5,10 +5,7 @@ import javafx.stage.Stage;
 
 public class MainStage extends Stage {
 
-    private Scene scene;
-
     public MainStage(Scene scene){
-        this.scene = scene;
         setScene(scene);
         setTitle("Todo App");
         setMinHeight(480);
