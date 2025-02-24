@@ -3,6 +3,7 @@ module com.portfolio.fxtodo {
     requires javafx.fxml;
     requires javafx.graphics;
     requires javafx.base;
+    requires java.logging;
 
     opens com.portfolio.fxtodo.controllers to javafx.fxml;
     opens com.portfolio.fxtodo to javafx.fxml;
